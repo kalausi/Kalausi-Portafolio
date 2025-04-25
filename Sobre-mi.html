@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+
+    <header>
+      <a href="index.html">
+        <img src="Kalausi-logo.svg" alt="Kalausi" class="logo"/>
+      </a>
+      
+      <button class="menu-toggle">
+        <span class="icon">☰</span>
+      </button>
+      
+        <nav class="menu">
+          <ul class="enlaces">
+            <li><a href="Ilustracion.html">Ilustración</a></li>
+            <li><a href="Animacion.html">Animación</a></li>
+            <li><a href="Proyectos.html">Proyectos</a></li>
+            <li><a href="Sobre-mi.html">Sobre mí</a></li>
+          </ul>
+        </nav> 
+      </header>
+
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="contenido">
+            
+            <div class="imagen-placeholder">
+              <img src="ilustraciones/yo_dibujo_chibi.png" />
+            </div>
+
+            <div class="texto">
+                <h2>¿Quién soy?</h2>
+                <p>Soy <strong>Karla Berra</strong>, estudiante de la licenciatura en <strong>Diseño Gráfico y Animación.</strong>  Soy de Villahermosa, Tabasco. Me apasiona dibujar y crear cosas nuevas. <strong>Mis cosas favoritas para trabajar son todo lo  divertido, colorido y/o lindo. </strong></p>
+                <p>Si deseas ponerte en contacto, no dudes en enviarme un mensaje a:</p>
+
+                <p class="email-contacto">
+                    <span class="estrella">✦</span> <span class="correo">kig_berra@outlook.com</span>
+                </p>                
+            </div>
+        </div>
+    </section>
+
+    <div class="cintillo">
+        <img src="ilustraciones/cinta.gif" class="cinta">
+    </div>
+
+    <section id="contacto" class="contacto">
+        
+        <div class="titulodeseccion">
+            <h2>Contacto</h2>
+            <p class="estrellaicon">✦</p>
+        </div>
+
+        <div class="formcontacto">
+            <div class="escribeme">
+
+                <p class="estrellaicon">✦</p>
+                <span>¡Escríbeme!</span>
+                <p>Quiero saber más de ti :)</p>
+
+            </div>
+    
+            <form action="https://formsubmit.co/kig_berra@outlook.com" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+            
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            
+                <input type="hidden" name="_subject" value="Nuevo mensaje del portafolio">
+                <input type="hidden" name="_captcha" value="false">
+            
+                <div class="boton-container">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="linea-footer"></div>  
+        <div class="footer-content">
+            <p><strong>kalausi</strong> | kig_berra@outlook.com</p>
+            <a href="https://www.instagram.com/k.lxxm/"><i class="fi fi-brands-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+<script src="scripts.js" defer></script>
+
+</html>
